@@ -1,9 +1,9 @@
 %% The extension of the features of gas %%
-%   data : 45-by-6 with 
-%	  labels
-%	  z : Total hydrocarbon
-%	  p(1-4) : CH4/Total hydrocarbon, C2H6/Total hydrocarbon, C2H4/Total hydrocarbon, C2H2/Total hydrocarbon.
-% 	p(5-10) : H2/(Total hydrocarbon + H2), C2H2/C2H4, C2H4/C2H6, C2H2/C2H6, C2H2/CH4, C2H4/H2
+%   data : 45-by-6  
+%   labels
+%   z : Total hydrocarbon
+%   p(1-4) : CH4/Total hydrocarbon, C2H6/Total hydrocarbon, C2H4/Total hydrocarbon, C2H2/Total hydrocarbon.
+%   p(5-10) : H2/(Total hydrocarbon + H2), C2H2/C2H4, C2H4/C2H6, C2H2/C2H6, C2H2/CH4, C2H4/H2
 
 function [p, labels] = features_extension(data)
 
