@@ -12,17 +12,13 @@ labels = data(:,6);
 z = zeros(size(data,1), 1); 
 
 for i = 1:5
-
 	z = z + data(:,i);% Total hydrocarbon
-
 end
 
 p = zeros(size(data,1), 1);
 
 for j = 1:4
-
 	p(:,j) = data(:,j + 1)./z;%p(1-4)
-
 end
 
 p(:,5) = data(:,1)./(data(:,1) + z);% H2/总烃+H2
